@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.foto-perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.educacion, .experiencia-laboral, .proyectos, .idiomas, .reconocimientos, .vinculo {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
