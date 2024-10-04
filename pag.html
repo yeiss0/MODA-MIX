@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa - ModaMix</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #1c1c3c;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 36px;
+        }
+        nav {
+            background-color: #2d2d59;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #1c1c3c;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            width: 22%;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        .product img {
+            max-width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 1px solid #ddd;
+        }
+        .product h3 {
+            padding: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+        footer {
+            background-color: #1c1c3c;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        ModaMix - Tienda de Ropa
+    </header>
+
+    <nav>
+        <a href="#hombres">Ropa de Hombre</a>
+        <a href="#mujeres">Ropa de Mujer</a>
+        <a href="#accesorios">Accesorios</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Sección de Ropa de Hombre -->
+        <section id="hombres">
+            <h2>Ropa de Hombre</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="images/camisa_hombre.jpg" alt="Camisa Casual">
+                    <h3>Camisa Casual</h3>
+                </div>
+                <div class="product">
+                    <img src="images/pantalon_hombre.jpg" alt="Pantalón de Vestir">
+                    <h3>Pantalón de Vestir</h3>
+                </div>
+                <div class="product">
+                    <img src="images/zapatos_hombre.jpg" alt="Zapatos Formales">
+                    <h3>Zapatos Formales</h3>
+                </div>
+                <div class="product">
+                    <img src="images/chaqueta_hombre.jpg" alt="Chaqueta de Cuero">
+                    <h3>Chaqueta de Cuero</h3>
+                </div>
+                <div class="product">
+                    <img src="images/jeans_hombre.jpg" alt="Jeans Clásicos">
+                    <h3>Jeans Clásicos</h3>
+                </div>
+                <div class="product">
+                    <img src="images/camisa_elegante_hombre.jpg" alt="Camisa Elegante">
+                    <h3>Camisa Elegante</h3>
+                </div>
+                <div class="product">
+                    <img src="images/corbata_hombre.jpg" alt="Corbata Formal">
+                    <h3>Corbata Formal</h3>
+                </div>
+                <div class="product">
+                    <img src="images/abrigo_hombre.jpg" alt="Abrigo de Invierno">
+                    <h3>Abrigo de Invierno</h3>
+                </div>
+                <div class="product">
+                    <img src="images/reloj_hombre.jpg" alt="Reloj Deportivo">
+                    <h3>Reloj Deportivo</h3>
+                </div>
+                <div class="product">
+                    <img src="images/zapatillas_hombre.jpg" alt="Zapatillas Deportivas">
+                    <h3>Zapatillas Deportivas</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Ropa de Mujer -->
+        <section id="mujeres">
+            <h2>Ropa de Mujer</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="images/vestido_mujer.jpg" alt="Vestido Elegante">
+                    <h3>Vestido Elegante</h3>
+                </div>
+                <div class="product">
+                    <img src="images/falda_mujer.jpg" alt="Falda Estampada">
+                    <h3>Falda Estampada</h3>
+                </div>
+                <div class="product">
+                    <img src="images/blusa_mujer.jpg" alt="Blusa de Seda">
+                    <h3>Blusa de Seda</h3>
+                </div>
+                <div class="product">
+                    <img src="images/tacones_mujer.jpg" alt="Tacones Altos">
+                    <h3>Tacones Altos</h3>
+                </div>
+                <div class="product">
+                    <img src="images/pantalon_mujer.jpg" alt="Pantalón Elegante">
+                    <h3>Pantalón Elegante</h3>
+                </div>
+                <div class="product">
+                    <img src="images/zapatos_mujer.jpg" alt="Zapatos de Tacón">
+                    <h3>Zapatos de Tacón</h3>
+                </div>
+                <div class="product">
+                    <img src="images/chaqueta_mujer.jpg" alt="Chaqueta de Piel">
+                    <h3>Chaqueta de Piel</h3>
+                </div>
+                <div class="product">
+                    <img src="images/botas_mujer.jpg" alt="Botas de Cuero">
+                    <h3>Botas de Cuero</h3>
+                </div>
+                <div class="product">
+                    <img src="images/cinturon_mujer.jpg" alt="Cinturón de Cuero">
+                    <h3>Cinturón de Cuero</h3>
+                </div>
+                <div class="product">
+                    <img src="images/reloj_mujer.jpg" alt="Reloj Femenino">
+                    <h3>Reloj Femenino</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Accesorios -->
+        <section id="accesorios">
+            <h2>Accesorios</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="images/sombrero.jpg" alt="Sombrero Elegante">
+                    <h3>Sombrero Elegante</h3>
+                </div>
+                <div class="product">
+                    <img src="images/gafas.jpg" alt="Gafas de Sol">
+                    <h3>Gafas de Sol</h3>
+                </div>
+                <div class="product">
+                    <img src="images/cartera.jpg" alt="Cartera de Cuero">
+                    <h3>Cartera de Cuero</h3>
+                </div>
+                <div class="product">
+                    <img src="images/reloj.jpg" alt="Reloj de Pulsera">
+                    <h3>Reloj de Pulsera</h3>
+                </div>
+                <div class="product">
+                    <img src="images/pulsera.jpg" alt="Pulsera Plateada">
+                    <h3>Pulsera Plateada</h3>
+                </div>
+                <div class="product">
+                    <img src="images/billetera.jpg" alt="Billetera de Cuero">
+                    <h3>Billetera de Cuero</h3>
+                </div>
+                <div class="product">
+                    <img src="images/cinturon.jpg" alt="Cinturón Elegante">
+                    <h3>Cinturón Elegante</h3>
+                </div>
+                <div class="product">
+                    <img src="images/gorra.jpg" alt="Gorra Deportiva">
+                    <h3>Gorra Deportiva</h3>
+                </div>
+                <div class="product">
+                    <img src="images/bufanda.jpg" alt="Bufanda de Lana">
+                    <h3>Bufanda de Lana</h3>
+                </div>
+                <div class="product">
+                    <img src="images/guantes.jpg" alt="Guantes de Cuero">
+                    <h3>Guantes de Cuero</h3>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ModaMix. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
